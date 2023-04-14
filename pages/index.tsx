@@ -34,6 +34,19 @@ function Item(props: {
   );
 }
 
+function Footer() {
+  return (
+    <footer>
+      <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        Desenvolvido em São João del-Rei - 2023{" "}
+        <a href="https://czar.dev/" className="hover:underline">
+          pela CZAR+™
+        </a>
+      </span>
+    </footer>
+  );
+}
+
 export default function Home() {
   const drinks = catalog["drinks"];
   const zodiac = catalog["zodiac"];
@@ -248,6 +261,8 @@ export default function Home() {
             ))}
           </div>
         </div>
+
+        <Footer />
       </div>
     </div>
   );
