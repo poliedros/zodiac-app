@@ -1,0 +1,680 @@
+{
+  "drinks": [
+    {
+      "index": "1",
+      "name": "Caipirinha",
+      "price": "13,50",
+      "description": "(Limão e cachaça)"
+    },
+    {
+      "index": "2",
+      "name": "Caipifrutas",
+      "price": "15,00",
+      "description": "(Vodka e fruta - consultar garçom)"
+    },
+    {
+      "index": "3",
+      "name": "Saqueirinha",
+      "price": "16,00",
+      "description": "(Saquê e fruta - consultar garçom)"
+    },
+    {
+      "index": "4",
+      "name": "Espanhola",
+      "price": "16,00",
+      "description": "(Abacaxi, vinho e leite condensado)"
+    },
+    {
+      "index": "5",
+      "name": "Pina colada",
+      "price": "18,00",
+      "description": "(Abacaxi, vodka, leite condensado e coco)"
+    },
+    {
+      "index": "6",
+      "name": "Sensação",
+      "price": "20,00",
+      "description": "(Morango, rum branco e chantilly)"
+    },
+    {
+      "index": "7",
+      "name": "Caribbean",
+      "price": "15,00",
+      "description": "(Morango, vinho, vodka e licor de menta)"
+    },
+    {
+      "index": "8",
+      "name": "Big baby",
+      "price": "20,00",
+      "description": "(Abacaxi, licor de morango, malibu, rum branco e chantilly)"
+    },
+    {
+      "index": "9",
+      "name": "Volcano",
+      "price": "16,00",
+      "description": "(Maracujá, suco de laranja, vodka e grenadine)"
+    },
+    {
+      "index": "10",
+      "name": "Sensação tropical",
+      "price": "12,00",
+      "description": "(Abacaxi, suco de limão, cachaça e amaretto)"
+    },
+    {
+      "index": "11",
+      "name": "Tiffany",
+      "price": "17,00",
+      "description": "(Abacaxi, rum branco e xarope de laranja)"
+    },
+    {
+      "index": "12",
+      "name": "Irish Coffee",
+      "price": "14,00",
+      "description": "(Café, domecq, licor de cacau, licor de café e chantilly)"
+    },
+    {
+      "index": "13",
+      "name": "Silveira",
+      "price": "15,00",
+      "description": "(Suco de laranja, malibu e xarope de laranja)"
+    },
+    {
+      "index": "14",
+      "name": "Jessica's Sunrise",
+      "price": "15,00",
+      "description": "(Abacaxi, suco de limão, malibu, vodka e grenadine)"
+    },
+    {
+      "index": "15",
+      "name": "Sex on the beach",
+      "price": "18,00",
+      "description": "(Suco de laranja, vodka, licor de pêssego e grenadine)"
+    },
+    {
+      "index": "16",
+      "name": "Ramos Gin",
+      "price": "22,00",
+      "description": "(Suco de limão, abacaxi ou morango, gin, malibu, curaçau e soda)"
+    },
+    {
+      "index": "17",
+      "name": "Sandy Z",
+      "price": "18,00",
+      "description": "(Suco de limão, gin, xarope de baunilha e soda)"
+    },
+    {
+      "index": "18",
+      "name": "Mojito",
+      "price": "15,00",
+      "description": "(Limão, hortelã, rum branco e soda)"
+    },
+    {
+      "index": "19",
+      "name": "Blue Lagoon",
+      "price": "15,00",
+      "description": "(Limão, vodka, soda e curaçau blue)"
+    },
+    {
+      "index": "20",
+      "name": "Fallen Temple",
+      "price": "13,50",
+      "description": "(Limão, vodka, soda e grenadine)"
+    },
+    {
+      "index": "21",
+      "name": "Cuba libre",
+      "price": "12,00",
+      "description": "(Suco de limão, rum branco e coca cola)"
+    },
+    {
+      "index": "22",
+      "name": "Aperol Spritz",
+      "price": "15,00",
+      "description": "(Água com gás, aperol, espumante e laranja)"
+    },
+    {
+      "index": "23",
+      "name": "Gin tônica",
+      "price": "17,00",
+      "description": "(Limão, gin e água tônica)"
+    },
+    {
+      "index": "24",
+      "name": "Appletini",
+      "price": "15,00",
+      "description": "(Vodka e fruta - consultar garçom)"
+    },
+    {
+      "index": "25",
+      "name": "Vie en Rose",
+      "price": "15,00",
+      "description": "(Abacaxi, vodka, soda e licor de morango)"
+    },
+    {
+      "index": "26",
+      "name": "Margarita",
+      "price": "22,00",
+      "description": "(Limão, tequila prata e triple sec)"
+    },
+    {
+      "index": "27",
+      "name": "Tequila Sunrise",
+      "price": "18,00",
+      "description": "(Tequila, suco de laranja e grenadine)"
+    },
+    {
+      "index": "28",
+      "name": "Mai Tai",
+      "price": "15,00",
+      "description": "(Limão, rum ouro, triple sec e amaretto)"
+    },
+    {
+      "index": "29",
+      "name": "Negroni",
+      "price": "20,00",
+      "description": "(Gin, campari e vermute Rosso)"
+    },
+    {
+      "index": "30",
+      "name": "Dry Martini",
+      "price": "18,00",
+      "description": "(Gin, vermute seco e azeitona)"
+    },
+    {
+      "index": "31",
+      "name": "Cosmopolitan",
+      "price": "18,00",
+      "description": "(Limão, vodka, triple sec e xarope de cranberry)"
+    },
+    {
+      "index": "32",
+      "name": "Moscow Mule",
+      "price": "18,00",
+      "description": "(Vodka, xarope de gengibre, suco de limão, soda, espuma)"
+    },
+    {
+      "index": "33",
+      "name": "Pri Sunset",
+      "price": "20,00",
+      "description": "(Gin, morango, pimenta preta, pimenta rosa, limão, energético e melancia)"
+    },
+    {
+      "index": "34",
+      "name": "V8",
+      "price": "14,00",
+      "description": "(Vodka, maracujá, leite condensado, licor de menta)"
+    },
+    {
+      "index": "35",
+      "name": "Green paradise",
+      "price": "18,00",
+      "description": "( Gin, xarope de maçã verde, limão, xarope de menta, soda)"
+    },
+    {
+      "index": "36",
+      "name": "Cota",
+      "price": "16,00",
+      "description": "(Saque, licor de cassis, morango, limão)"
+    },
+    {
+      "index": "37",
+      "name": "Red Sunrise",
+      "price": "16,00",
+      "description": "(Vodka, melancia, morango e limão)"
+    },
+    {
+      "index": "38",
+      "name": "Candy Crush",
+      "price": "20,00",
+      "description": "(Gin, xarope de baunilha, limão, bala de goma e algodão doce)"
+    },
+    {
+      "index": "39",
+      "name": "Sonho de Valsa",
+      "price": "15,00",
+      "description": "(Rum de coco, licor de amêndoas, creme de cacau, espuma de avelã)"
+    }
+  ],
+  "zodiac": [
+    {
+      "index": "40",
+      "name": "ÁRIES",
+      "price": "18,00",
+      "description": "(Rum Branco, maracujá, morango e pimenta calabresa)"
+    },
+    {
+      "index": "41",
+      "name": "TOURO",
+      "price": "15,00",
+      "description": "(Gin, Limão e xarope de amêndoas)"
+    },
+    {
+      "index": "42",
+      "name": "GÊMEOS",
+      "price": "16,00",
+      "description": "(Vodka, xarope de laranja, suco de abacaxi, limão e xarope de grenadine)"
+    },
+    {
+      "index": "43",
+      "name": "CÂNCER",
+      "price": "18,00",
+      "description": "(Vodka, xarope de amêndoas, limão, suco de abacaxi e chantilly)"
+    },
+    {
+      "index": "44",
+      "name": "LEÃO",
+      "price": "15,00",
+      "description": "(Rum ouro, maracujá, limão e xarope de amêndoas)"
+    },
+    {
+      "index": "45",
+      "name": "VIRGEM",
+      "price": "15,00",
+      "description": "(Vodka, xarope de laranja, limão, abacaxi e soda)"
+    },
+    {
+      "index": "46",
+      "name": "LIBRA",
+      "price": "14,00",
+      "description": "(Vodka, xarope de gengibre, limão, licor de menta e hortelã)"
+    },
+    {
+      "index": "47",
+      "name": "ESCORPIÃO",
+      "price": "20,00",
+      "description": "(Gin, hibisco, pimenta rosa, xarope de gengibre e soda)"
+    },
+    {
+      "index": "48",
+      "name": "SAGITÁRIO",
+      "price": "20,00",
+      "description": "(Gin, pimenta rosa, limão e energético)"
+    },
+    {
+      "index": "49",
+      "name": "CAPRICORNIANA",
+      "price": "20,00",
+      "description": "(Rum branco, rum de coco, suco de abacaxi, limão e hortelã)"
+    },
+    {
+      "index": "50",
+      "name": "AQUÁRIO",
+      "price": "18,00",
+      "description": "(Rum branco, rum de coco, suco de abacaxi e xarope de laranja)"
+    },
+    {
+      "index": "51",
+      "name": "PEIXES",
+      "price": "20,00",
+      "description": "(Gin, pimenta rosa, anis estrelado, limão, xarope de gengibre e soda)"
+    }
+  ],
+  "summer": [
+    {
+      "index": "59",
+      "name": "Mineirinha",
+      "price": "17,00",
+      "description": "(Cachaça Premium, limão tahiti, limão rosa, espuma de laranja)"
+    },
+    {
+      "index": "60",
+      "name": "Junina",
+      "price": "17,00",
+      "description": "(Rum de coco, Rum Ouro, leite condensado, paçoca)"
+    },
+    {
+      "index": "61",
+      "name": "Hurricane",
+      "price": "16,00",
+      "description": "(Rum prata, Rum ouro, suco de abacaxi, suco de limão tahiti, suco de laranja, xarope de grenadine)"
+    },
+    {
+      "index": "62",
+      "name": "Long Island Iced Tea",
+      "price": "18,00",
+      "description": "(Gin, Tequila, Vodka, Rum, limão, coca cola)"
+    },
+    {
+      "index": "63",
+      "name": "Sea Green",
+      "price": "15,00",
+      "description": "(Vodka, Uvas verdes, Licor de menta, suco de limão)"
+    },
+    {
+      "index": "64",
+      "name": "Miami Vice",
+      "price": "19,00",
+      "description": "(Rum branco, vodka, leite de coco, morango, abacaxi)"
+    },
+    {
+      "index": "65",
+      "name": "Americano",
+      "price": "15,00",
+      "description": "(Campari, vermute rosso, club soda)"
+    },
+    {
+      "index": "66",
+      "name": "Dark Side",
+      "price": "18,00",
+      "description": ""
+    }
+  ],
+  "drinkshots": [
+    {
+      "index": "52",
+      "name": "Prestígio",
+      "price": "12,00",
+      "description": ""
+    },
+    {
+      "index": "53",
+      "name": "Orgasmo",
+      "price": "14,00",
+      "description": ""
+    }
+  ],
+  "nonalcoholicdrinks": [
+    {
+      "index": "54",
+      "name": "Caipivirgem",
+      "price": "10,00",
+      "description": "(Leite condensado e fruta - consultar o garçom)"
+    },
+    {
+      "index": "55",
+      "name": "Pina Descolada",
+      "price": "14,00",
+      "description": "(Abacaxi, leite condensado e coco)"
+    },
+    {
+      "index": "56",
+      "name": "Virgin Mojito",
+      "price": "10,00",
+      "description": "(Limão Hortelã e soda)"
+    },
+    {
+      "index": "57",
+      "name": "Shirley Temple",
+      "price": "12,00",
+      "description": "(Suco de Laranja, soda e grenadine)"
+    },
+    {
+      "index": "58",
+      "name": "AppletiniVirgem",
+      "price": "12,00",
+      "description": "(Limão, xarope maça verde e soda)"
+    }
+  ],
+  "beers": [
+    {
+      "name": "Itaipava Litrão",
+      "price": "14,00"
+    },
+    {
+      "name": "Devassa Litrão",
+      "price": "15,00"
+    },
+    {
+      "name": "Heineken 600ml",
+      "price": "16,50"
+    },
+    {
+      "name": "Brahma 600ml",
+      "price": "10,00"
+    },
+    {
+      "name": "Brahma Duplo 600ml",
+      "price": "12,50"
+    },
+    {
+      "name": "Petra 600ml",
+      "price": "12,00"
+    },
+    {
+      "name": "Long neck",
+      "price": "10,00"
+    },
+    {
+      "name": "Cerveja zero",
+      "price": "6,00"
+    }
+  ],
+  "nonalcoholic": [
+    {
+      "name": "Água com gás",
+      "price": "4,00"
+    },
+    {
+      "name": "Água sem gás",
+      "price": "3,00"
+    },
+    {
+      "name": "Refrigerante lata",
+      "price": "6,00"
+    },
+    {
+      "name": "Suco natural",
+      "price": "8,50"
+    },
+    {
+      "name": "Energético - Red Bull",
+      "price": "16,00"
+    },
+    {
+      "name": "Água tônica",
+      "price": "5,50"
+    }
+  ],
+  "shots": [
+    {
+      "name": "Rum Bacardi Ouro",
+      "price": "9,00"
+    },
+    {
+      "name": "Vodka Orloff",
+      "price": "8,00"
+    },
+    {
+      "name": "Vodka Smirnoff",
+      "price": "10,00"
+    },
+    {
+      "name": "Vodka Absolut",
+      "price": "14,00"
+    },
+    {
+      "name": "Tequila",
+      "price": "16,00"
+    },
+    {
+      "name": "Whiskey Jack Daniels",
+      "price": "25,00"
+    },
+    {
+      "name": "Whisky Red Label",
+      "price": "16,00"
+    },
+    {
+      "name": "Campari",
+      "price": "12,00"
+    },
+    {
+      "name": "Amarula",
+      "price": "14,00"
+    },
+    {
+      "name": "Domeq",
+      "price": "8,00"
+    },
+    {
+      "name": "Vinho (taça)",
+      "price": "10,00"
+    },
+    {
+      "name": "Vinho (garrafa) - Consultar o garçom",
+      "price": ""
+    }
+  ],
+  "appetizer": [
+    {
+      "name": "Cachaça da roça",
+      "price": "4,00"
+    },
+    {
+      "name": "Jacuba ouro",
+      "price": "7,00"
+    },
+    {
+      "name": "Jacuba prata",
+      "price": "6,00"
+    }
+  ],
+  "portions": [
+    {
+      "index": "1",
+      "name": "Fritas com queijo",
+      "price": "37,90",
+      "description": ""
+    },
+    {
+      "index": "2",
+      "name": "Fritas com queijo e bacon",
+      "price": "38,90",
+      "description": ""
+    },
+    {
+      "index": "3",
+      "name": "Fritas com queijo, bacon e calabresa",
+      "price": "42,90",
+      "description": ""
+    },
+    {
+      "index": "4",
+      "name": "Fritas completa",
+      "price": "47,90",
+      "description": ""
+    },
+    {
+      "index": "5",
+      "name": "Costelinha ao molho barbecue",
+      "price": "49,90",
+      "description": ""
+    },
+    {
+      "index": "6",
+      "name": "Pernil acebolado com fritas",
+      "price": "39,90",
+      "description": ""
+    },
+    {
+      "index": "7",
+      "name": "Frango cremoso com fritas",
+      "price": "47,90",
+      "description": ""
+    },
+    {
+      "index": "8",
+      "name": "Isca de frango",
+      "price": "35,90",
+      "description": ""
+    },
+    {
+      "index": "9",
+      "name": "Tábua mineira",
+      "price": "65,90",
+      "description": "(Alcatra, mandioca, provolone, linguiça defumada, farofa e pimenta)"
+    },
+    {
+      "index": "10",
+      "name": "À moda Ramos",
+      "price": "101,90",
+      "description": "(Frango, pernil, fritas, mandioca, calabresa, bacon, mussarela, catupiry, cheddar, cebola e tomate)"
+    },
+    {
+      "index": "11",
+      "name": "Calabresa com mandioca",
+      "price": "31,90",
+      "description": ""
+    },
+    {
+      "index": "12",
+      "name": "Torresmo com mandioca",
+      "price": "35,90",
+      "description": ""
+    },
+    {
+      "index": "13",
+      "name": "Picadinho de bar",
+      "price": "44,90",
+      "description": ""
+    },
+    {
+      "index": "14",
+      "name": "Contra filé com fritas",
+      "price": "58,90",
+      "description": ""
+    },
+    {
+      "index": "15",
+      "name": "Isca de peixe",
+      "price": "44,90",
+      "description": ""
+    },
+    {
+      "index": "16",
+      "name": "Trio mineiro",
+      "price": "69,90",
+      "description": "(Pernil, calabresa, torresmo e mandioca)"
+    },
+    {
+      "index": "17",
+      "name": "",
+      "price": "14,00",
+      "description": "(Isca de tilápia, mandioca frita, batata e bacon)"
+    },
+    {
+      "index": "18",
+      "name": "Tilápia do chefe",
+      "price": "65,90",
+      "description": "(Acompanha fritas)"
+    }
+  ],
+  "individualportions": [
+    {
+      "index": "19",
+      "name": "Porções de quibes",
+      "price": "16,90",
+      "description": "(10 unidades)"
+    },
+    {
+      "index": "20",
+      "name": "Espetinho",
+      "price": "9,90",
+      "description": "(Porco, boi ou frango)"
+    },
+    {
+      "index": "21",
+      "name": "Combo",
+      "price": "27,90",
+      "description": "(2 espetinhos + fritas)"
+    },
+    {
+      "index": "22",
+      "name": "Porção de pastel de angu",
+      "price": "29,90",
+      "description": "Frango com requeijão ou carne seca - 10 unidades)"
+    },
+    {
+      "index": "23",
+      "name": "Tábua de frios",
+      "price": "29,90",
+      "description": "(Presunto, salaminho, provolone, mussarela e azeitona)"
+    },
+    {
+      "index": "24",
+      "name": "Caldos",
+      "price": "13,90",
+      "description": "(consultar o garçom)"
+    }
+  ]
+}
