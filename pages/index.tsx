@@ -1,3 +1,4 @@
+import Head from "next/head";
 import catalog from "../catalog.json";
 
 function colorfulText(text: string) {
@@ -62,6 +63,10 @@ export default function Home() {
 
   return (
     <div className="flex justify-center">
+      <Head>
+        <title>Cardápio Ramos</title>
+      </Head>
+
       <div className="flex flex-col">
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           Cardápio Ramos
@@ -83,6 +88,8 @@ export default function Home() {
             ))}
           </div>
         </div>
+
+        <div>EM DIA DE MÚSICA AO VIVO COUVERT OBRIGATÓRIO</div>
 
         <br />
 
@@ -242,6 +249,8 @@ export default function Home() {
             ))}
           </div>
         </div>
+
+        <div>*MEIA PORÇÃO SERÁ COBRADO O VALOR DE 70%*</div>
 
         <br />
 

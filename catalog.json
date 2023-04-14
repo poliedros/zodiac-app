@@ -142,7 +142,7 @@
       "index": "24",
       "name": "Appletini",
       "price": "15,00",
-      "description": "(Vodka e fruta - consultar garçom)"
+      "description": "(Limão, vodka e xarope de maçã)"
     },
     {
       "index": "25",
@@ -628,14 +628,14 @@
     },
     {
       "index": "17",
-      "name": "",
-      "price": "14,00",
+      "name": "Tilápia do chefe",
+      "price": "65,90",
       "description": "(Isca de tilápia, mandioca frita, batata e bacon)"
     },
     {
       "index": "18",
-      "name": "Tilápia do chefe",
-      "price": "65,90",
+      "name": "Contra filé aos três queijos",
+      "price": "72,90",
       "description": "(Acompanha fritas)"
     }
   ],
