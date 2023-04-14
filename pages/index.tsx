@@ -13,7 +13,7 @@ function Bullet(props: { name: string; price: string }) {
   const { name, price } = props;
   return (
     <li>
-      <b>{name}</b> R${price}
+      <b>{name}</b> {price !== "" ? "R$" + price : ""}
     </li>
   );
 }
