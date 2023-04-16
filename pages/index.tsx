@@ -1,5 +1,7 @@
 import Head from "next/head";
+import Script from "next/script";
 import catalog from "../catalog.json";
+const GA_TRACKING_ID = "G-KVQPS7V7HZ";
 
 function colorfulText(text: string) {
   return (
@@ -63,6 +65,19 @@ export default function Home() {
 
   return (
     <div className="flex justify-center">
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '${GA_TRACKING_ID}');
+          `}
+      </Script>
       <Head>
         <title>Cardápio Ramos</title>
       </Head>
