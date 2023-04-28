@@ -511,8 +511,8 @@
       "price": "10,00"
     },
     {
-      "name": "Vinho (garrafa) - Consultar o garçom",
-      "price": ""
+      "name": "Vinho (garrafa)",
+      "price": "Consultar o garçom"
     }
   ],
   "appetizer": [
