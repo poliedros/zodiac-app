@@ -71,8 +71,8 @@ export default function ComSection(props: {
                   </div>
                 </div>
                 <div key={i} className="text-2xl">
-                  <td className="w-auto"></td>
-                  <td>{item.description}</td>
+                  <div className="w-1/6"></div>
+                  <div className="w-5/6">{item.description}</div>
                 </div>
                 <div className="pb-4"></div>
               </>

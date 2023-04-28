@@ -167,7 +167,12 @@ export default function Home() {
                     />
                   </div>
                   <ComSection type={"item"} title={"drinks"} items={drinks} />
-                  <div>EM DIA DE MÚSICA AO VIVO COUVERT OBRIGATÓRIO</div>
+                  <div className="text-center">
+                    <div className="w-1/6"></div>
+                    <div className="w-5/6 uppercase">
+                      em dia de música ao vivo couvert obrigatório
+                    </div>
+                  </div>
                   <ComSection
                     type={"item"}
                     title={"drinks do zodíaco"}
@@ -239,7 +244,12 @@ export default function Home() {
                     title={"porções"}
                     items={portions}
                   />
-                  <div>*MEIA PORÇÃO SERÁ COBRADO O VALOR DE 70%*</div>
+                  <div className="text-center">
+                    <div className="w-1/6"></div>
+                    <div className="w-5/6 uppercase">
+                      *meia porção será cobrado o valor de 70%*
+                    </div>
+                  </div>
                   <ComSection
                     type={"item"}
                     title={"porções individuais"}
