@@ -87,7 +87,11 @@ export default function Home() {
         )}
 
         <div className="flex">
-          <div className="w-1/6 h-full bar"></div>
+          {page !== undefined ? (
+            <div className="w-1/6 h-full bar"></div>
+          ) : (
+            <></>
+          )}
           <div className="flex justify-evenly text-center my-3 w-full">
             <button
               className="bg-[#AF3838] p-2 text-white uppercase hover:bg-[black]"
@@ -221,7 +225,14 @@ export default function Home() {
             </div>
           </div>
         ) : (
-          <div className="text-2xl">Escolha uma categoria</div>
+          <div className="flex justify-center my-6 italic">
+            <div
+              style={{ fontFamily: "'DM Serif Display', serif" }}
+              className="text-2xl"
+            >
+              Escolha uma categoria
+            </div>
+          </div>
         )}
         <div className="my-6 flex justify-center">
           <div className="border-b-4 border-[#AF3838] w-5/6" />
