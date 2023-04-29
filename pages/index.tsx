@@ -11,14 +11,13 @@ function Footer() {
 
   return (
     <footer>
-      <span className="flex m-3 items-center justify-evenly text-lg text-gray-500 sm:text-center dark:text-gray-400">
+      <span className="flex m-3 items-center justify-evenly text-lg text-gray-500 sm:text-center">
         Desenvolvido por:{" "}
         <div className="flex">
           <div className="bg-[#282C35] rounded-full w-[85px] h-[85px] mx-3 flex items-center justify-center">
             <a
               style={{ fontFamily: "'Josefin Sans', sans-serif" }}
               href="https://czar.dev/"
-              className="hover:underline"
             >
               <Image
                 src={"/czarLogo.png"}
@@ -74,13 +73,15 @@ export default function Home() {
       <div className="flex flex-col w-screen">
         {page === undefined ? (
           <div className="flex justify-center flex-col items-center m-6">
-            <Image
-              src="/ramosLogo.png"
-              width={566 / 4}
-              height={836 / 4}
-              alt="ramos logo"
-              className="my-9"
-            />
+            <div className="bg-gray-600 rounded-3xl w-[250px] h-[250px] mx-3 flex items-center justify-center">
+              <Image
+                src="/ramosLogo.png"
+                width={566 / 4}
+                height={836 / 4}
+                alt="ramos logo"
+                className="my-9"
+              />
+            </div>
           </div>
         ) : (
           <></>
@@ -120,19 +121,20 @@ export default function Home() {
             <div className="w-full">
               {page === "drinks" ? (
                 <>
-                  <div className="flex justify-center flex-col items-center">
-                    <Image
-                      src="/ramosLogo.png"
-                      width={566 / 3}
-                      height={836 / 3}
-                      alt="ramos logo"
-                      className="mt-9"
-                    />
+                  <div className="flex justify-center flex-col items-center mt-9">
+                    <div className="bg-gray-600 rounded-3xl w-[325px] h-[325px] mx-3 flex items-center justify-center">
+                      <Image
+                        src="/ramosLogo.png"
+                        width={566 / 3}
+                        height={836 / 3}
+                        alt="ramos logo"
+                      />
+                    </div>
                   </div>
                   <ComSection type={"item"} title={"drinks"} items={drinks} />
                   <div className="text-center">
                     <div className="w-1/6"></div>
-                    <div className="w-5/6 uppercase">
+                    <div className="mx-9 w-5/6 uppercase">
                       em dia de música ao vivo couvert obrigatório
                     </div>
                   </div>
@@ -152,14 +154,15 @@ export default function Home() {
               )}
               {page === "drinks2" ? (
                 <>
-                  <div className="flex justify-center flex-col items-center">
-                    <Image
-                      src="/ramosLogo.png"
-                      width={566 / 3}
-                      height={836 / 3}
-                      alt="ramos logo"
-                      className="mt-9"
-                    />
+                  <div className="flex justify-center flex-col items-center mt-9">
+                    <div className="bg-gray-600 rounded-3xl w-[325px] h-[325px] mx-3 flex items-center justify-center">
+                      <Image
+                        src="/ramosLogo.png"
+                        width={566 / 3}
+                        height={836 / 3}
+                        alt="ramos logo"
+                      />
+                    </div>
                   </div>
                   <ComSection
                     type={"item"}
@@ -193,14 +196,15 @@ export default function Home() {
               )}
               {page === "portions" ? (
                 <>
-                  <div className="flex justify-center flex-col items-center">
-                    <Image
-                      src="/ramosLogo.png"
-                      width={566 / 3}
-                      height={836 / 3}
-                      alt="ramos logo"
-                      className="mt-9"
-                    />
+                  <div className="flex justify-center flex-col items-center mt-9">
+                    <div className="bg-gray-600 rounded-3xl w-[325px] h-[325px] mx-3 flex items-center justify-center">
+                      <Image
+                        src="/ramosLogo.png"
+                        width={566 / 3}
+                        height={836 / 3}
+                        alt="ramos logo"
+                      />
+                    </div>
                   </div>
                   <ComSection
                     type={"item"}
@@ -209,7 +213,7 @@ export default function Home() {
                   />
                   <div className="text-center">
                     <div className="w-1/6"></div>
-                    <div className="w-5/6 uppercase">
+                    <div className="mx-9 w-5/6 uppercase">
                       *meia porção será cobrado o valor de 70%*
                     </div>
                   </div>

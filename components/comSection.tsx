@@ -20,7 +20,7 @@ export default function ComSection(props: {
             {props.items.map((item: any, i: number) => (
               <>
                 <div key={i} className="text-3xl flex line">
-                  <div className="flex w-4/6">
+                  <div className="flex w-4/6 name">
                     <div className="pr-3">{item.index}.</div>
                     <div className="">
                       <b>{item.name}</b>
@@ -40,7 +40,7 @@ export default function ComSection(props: {
                 </div>
                 <div key={i} className="text-2xl">
                   <div className="w-1/6"></div>
-                  <div className="w-5/6">{item.description}</div>
+                  <div className="w-5/6 name">{item.description}</div>
                 </div>
                 <div className="pb-4"></div>
               </>
@@ -62,11 +62,11 @@ export default function ComSection(props: {
             {props.items.map((item: any, i: number) => (
               <>
                 <div key={i} className="flex line">
-                  <div className="flex w-3/6">
+                  <div className="flex w-3/6 name">
                     <div className="text-right pl-6">
                       <li></li>
                     </div>
-                    <div>
+                    <div className="">
                       <b>{item.name}</b>
                     </div>
                   </div>
