@@ -14,16 +14,19 @@ function Footer() {
       <span className="flex m-3 items-center justify-evenly text-lg text-gray-500 sm:text-center">
         Desenvolvido por:{" "}
         <div className="flex">
-          <div className="bg-[#282C35] rounded-full w-[85px] h-[85px] mx-3 flex items-center justify-center">
+          <div className="bg-[#282C35] rounded-full w-[70px] h-[70px] mx-3 flex items-center justify-center">
             <a
               style={{ fontFamily: "'Josefin Sans', sans-serif" }}
               href="https://czar.dev/"
             >
               <Image
-                src={"/czarLogo.png"}
+                src={
+                  "https://raw.githubusercontent.com/poliedros/ramos-app/main/public/czarLogo.png"
+                }
                 alt={"Czar+"}
                 width={270 / 4}
                 height={140 / 4}
+                className="rounded-[5rem]"
               />
             </a>
           </div>
@@ -73,9 +76,9 @@ export default function Home() {
       <div className="flex flex-col w-screen">
         {page === undefined ? (
           <div className="flex justify-center flex-col items-center m-6">
-            <div className="bg-gray-600 rounded-3xl w-[250px] h-[250px] mx-3 flex items-center justify-center">
+            <div className="bg-gray-600 rounded-[5rem] w-[250px] h-[250px] mx-3 flex items-center justify-center">
               <Image
-                src="/ramosLogo.png"
+                src="https://raw.githubusercontent.com/poliedros/ramos-app/main/public/ramosLogo.png"
                 width={566 / 4}
                 height={836 / 4}
                 alt="ramos logo"
@@ -89,8 +92,9 @@ export default function Home() {
 
         <div className="flex">
           {page !== undefined ? (
-            <div className="w-1/6 h-full bar"></div>
+            <></>
           ) : (
+            // <div className="w-1/6 h-full bar"></div>
             <></>
           )}
           <div className="flex justify-evenly text-center my-3 w-full">
@@ -117,14 +121,24 @@ export default function Home() {
 
         {page !== undefined ? (
           <div className="flex">
-            <div className="bg-[#AF3838] w-1/6 h-full bar"></div>
+            <div className="bg-[#AF3838] w-1/6 h-full bar text-center">
+              {page === "drinks" ? (
+                <div className="text-white uppercase text-lg m-3">drinks</div>
+              ) : page === "drinks2" ? (
+                <div className="text-white uppercase text-lg m-3">bebidas</div>
+              ) : page === "portions" ? (
+                <div className="text-white uppercase text-lg m-3">porções</div>
+              ) : (
+                ""
+              )}
+            </div>
             <div className="w-full">
               {page === "drinks" ? (
                 <>
                   <div className="flex justify-center flex-col items-center mt-9">
-                    <div className="bg-gray-600 rounded-3xl w-[325px] h-[325px] mx-3 flex items-center justify-center">
+                    <div className="bg-gray-600 rounded-[5rem] w-[325px] h-[325px] mx-3 flex items-center justify-center">
                       <Image
-                        src="/ramosLogo.png"
+                        src="https://raw.githubusercontent.com/poliedros/ramos-app/main/public/ramosLogo.png"
                         width={566 / 3}
                         height={836 / 3}
                         alt="ramos logo"
@@ -155,9 +169,9 @@ export default function Home() {
               {page === "drinks2" ? (
                 <>
                   <div className="flex justify-center flex-col items-center mt-9">
-                    <div className="bg-gray-600 rounded-3xl w-[325px] h-[325px] mx-3 flex items-center justify-center">
+                    <div className="bg-gray-600 rounded-[5rem] w-[325px] h-[325px] mx-3 flex items-center justify-center">
                       <Image
-                        src="/ramosLogo.png"
+                        src="https://raw.githubusercontent.com/poliedros/ramos-app/main/public/ramosLogo.png"
                         width={566 / 3}
                         height={836 / 3}
                         alt="ramos logo"
@@ -197,9 +211,9 @@ export default function Home() {
               {page === "portions" ? (
                 <>
                   <div className="flex justify-center flex-col items-center mt-9">
-                    <div className="bg-gray-600 rounded-3xl w-[325px] h-[325px] mx-3 flex items-center justify-center">
+                    <div className="bg-gray-600 rounded-[5rem] w-[325px] h-[325px] mx-3 flex items-center justify-center">
                       <Image
-                        src="/ramosLogo.png"
+                        src="https://raw.githubusercontent.com/poliedros/ramos-app/main/public/ramosLogo.png"
                         width={566 / 3}
                         height={836 / 3}
                         alt="ramos logo"
