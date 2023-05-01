@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:docker": "docker build -t ramos-app:v1 .",
+    "start:docker": "docker run --rm -it -p 3000:3000 --name ramos-app ramos-app:v1"
   },
   "dependencies": {
-    "next": "13.3.0",
+    "next": "13.3.4",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "18.2.0",

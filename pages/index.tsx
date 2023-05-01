@@ -20,7 +20,7 @@ function Footer() {
               href="https://czar.dev/"
             >
               <Image
-                src={"/czarLogo.png"}
+                src="/czarLogo.png"
                 alt={"Czar+"}
                 width={270 / 4}
                 height={140 / 4}
