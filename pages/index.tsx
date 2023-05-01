@@ -20,9 +20,7 @@ function Footer() {
               href="https://czar.dev/"
             >
               <Image
-                src={
-                  "https://raw.githubusercontent.com/poliedros/ramos-app/main/public/czarLogo.png"
-                }
+                src={"/czarLogo.png"}
                 alt={"Czar+"}
                 width={270 / 4}
                 height={140 / 4}
@@ -78,7 +76,7 @@ export default function Home() {
           <div className="flex justify-center flex-col items-center m-6">
             <div className="bg-gray-600 rounded-[5rem] w-[250px] h-[250px] mx-3 flex items-center justify-center">
               <Image
-                src="https://raw.githubusercontent.com/poliedros/ramos-app/main/public/ramosLogo.png"
+                src="/ramosLogo.png"
                 width={566 / 4}
                 height={836 / 4}
                 alt="ramos logo"
@@ -138,7 +136,7 @@ export default function Home() {
                   <div className="flex justify-center flex-col items-center mt-9">
                     <div className="bg-gray-600 rounded-[5rem] w-[325px] h-[325px] mx-3 flex items-center justify-center">
                       <Image
-                        src="https://raw.githubusercontent.com/poliedros/ramos-app/main/public/ramosLogo.png"
+                        src="/ramosLogo.png"
                         width={566 / 3}
                         height={836 / 3}
                         alt="ramos logo"
@@ -171,7 +169,7 @@ export default function Home() {
                   <div className="flex justify-center flex-col items-center mt-9">
                     <div className="bg-gray-600 rounded-[5rem] w-[325px] h-[325px] mx-3 flex items-center justify-center">
                       <Image
-                        src="https://raw.githubusercontent.com/poliedros/ramos-app/main/public/ramosLogo.png"
+                        src="/ramosLogo.png"
                         width={566 / 3}
                         height={836 / 3}
                         alt="ramos logo"
@@ -213,7 +211,7 @@ export default function Home() {
                   <div className="flex justify-center flex-col items-center mt-9">
                     <div className="bg-gray-600 rounded-[5rem] w-[325px] h-[325px] mx-3 flex items-center justify-center">
                       <Image
-                        src="https://raw.githubusercontent.com/poliedros/ramos-app/main/public/ramosLogo.png"
+                        src="/ramosLogo.png"
                         width={566 / 3}
                         height={836 / 3}
                         alt="ramos logo"
