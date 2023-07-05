@@ -6,20 +6,21 @@ export default function ComSection(props: {
   return (
     <>
       {props.type === "item" ? (
-        <div className="mx-6 mt-9">
-          <div className="flex justify-center flex-col items-center">
-            <div className="border-b-4 border-[#AF3838] w-5/6" />
-          </div>
-          <h2 className="capitalize text-center text-4xl sm:text-6xl my-9 font-['DM_Serif_Display']">
+        <div className="w-10/12">
+          <h2 className="uppercase text-white text-center text-4xl sm:text-6xl my-3 font-['Oswald'] font-semibold tracking-widest">
             {props.title}
           </h2>
-          <div className="w-full !overflow-hidden">
+          <div className="w-full bg-white rounded-3xl !overflow-hidden">
             {props.items.map((item: any, i: number) => (
               <>
-                <div className="px-4 py-2 hover:bg-[#af383880] bounce-right rounded-3xl sm:rounded-full">
+                <div
+                  onMouseEnter={() => {}}
+                  onMouseOut={() => {}}
+                  className="px-4 py-2 hover:bg-slate-300 hover:animate-pulse"
+                >
                   <div
                     key={i}
-                    className="text-3xl flex line" //text-2xl sm:
+                    className="text-3xl flex line font-['Oswald'] font-semibold" //text-2xl sm:
                   >
                     <div className="flex w-4/6 name">
                       <div className="pr-3">{item.index}.</div>
@@ -39,12 +40,15 @@ export default function ComSection(props: {
                       </b>
                     </div>
                   </div>
-                  <div key={i} className="text-2xl">
+                  <div
+                    key={i}
+                    className="text-2xl font-['Oswald'] font-extralight"
+                  >
                     <div className="w-1/6"></div>
                     <div className="w-5/6 name">{item.description}</div>
                   </div>
                 </div>
-                <div className="pb-4"></div>
+                {/* <div className="pb-4"></div> */}
               </>
             ))}
           </div>
