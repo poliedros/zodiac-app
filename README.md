@@ -1,6 +1,6 @@
-## Ramos
+## Zoadic
 
-Ramos is a pub catalog.
+Zoadic is a pub.
 
 ## Development
 
