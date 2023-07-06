@@ -191,7 +191,7 @@ export default function Home() {
         {/* [url('https://images.unsplash.com/photo-1492446190781-58ac4285911d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=805&q=80')] */}
         {page === undefined ? (
           <div
-            className="flex flex-col justify-center items-center m-6" //flex-col flex-col
+            className="flex flex-col justify-center items-center m-6" //flex-col flex-col -mb-48
           >
             <div
               className="w-[250px] h-[250px] md:w-[400px] md:h-[400px] sm:w-[350px] sm:h-[350px] flex flex-col justify-center items-center relative" //relative
@@ -312,7 +312,7 @@ export default function Home() {
               <svg
                 width="220"
                 height="220"
-                className="z-50 mt-16" //absolute block bottom-[0%] left-[calc(50%-220px)]
+                className="z-50 mt-48 " //absolute block bottom-[0%] left-[calc(50%-220px)] -mb-48
               >
                 <path
                   fill="none"
@@ -343,10 +343,9 @@ export default function Home() {
                     xlinkHref="#innerCircle"
                     className="qr unselectable"
                     fill="white"
-                    startOffset="21%"
-                    onClick={() => setPage("drinks")}
+                    startOffset="19%"
                   >
-                    Drinks
+                    |
                   </textPath>
                 </text>
                 <text>
@@ -355,13 +354,48 @@ export default function Home() {
                     xlinkHref="#innerCircle"
                     className="qr unselectable"
                     fill="white"
-                    startOffset="34%"
+                    startOffset="21%"
                     onClick={() => setPage("portions")}
                   >
                     Porções
                   </textPath>
                 </text>
+                <text>
+                  <textPath
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    xlinkHref="#innerCircle"
+                    className="qr unselectable"
+                    fill="white"
+                    startOffset="34.5%"
+                  >
+                    |
+                  </textPath>
+                </text>
+                <text>
+                  <textPath
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    xlinkHref="#innerCircle"
+                    className="qr unselectable"
+                    fill="white"
+                    startOffset="36.5%"
+                    onClick={() => setPage("drinks")}
+                  >
+                    Drinks
+                  </textPath>
+                </text>
               </svg>
+              <div className="flex flex-col justify-center items-center">
+                <Image
+                  src="/arrow-57.svg"
+                  width={980 / 20}
+                  height={368 / 20}
+                  alt="zodiac logo"
+                  className="mt-4 -mb-10 ml-24 invert -rotate-[30deg]"
+                />
+                <h1 className="text-center text-white mt-9 font-[Kristi] text-3xl">
+                  Escolha uma categoria
+                </h1>
+              </div>
             </div>
           </div>
         ) : (
@@ -479,7 +513,7 @@ export default function Home() {
                         width={927 / 1.5}
                         height={927 / 1.5}
                         alt="zodiac logo"
-                        className="hover:animate-ping p-12"
+                        className="p-12"
                       />
                       <Image
                         src="/zodiac-1.svg"
@@ -512,7 +546,7 @@ export default function Home() {
                     xlinkHref="#innerCircle"
                     className="qr2 unselectable"
                     fill="black"
-                    startOffset="5%"
+                    startOffset="4%"
                     onClick={() => setPage("drinks2")}
                   >
                     Bebidas
@@ -524,10 +558,9 @@ export default function Home() {
                     xlinkHref="#innerCircle"
                     className="qr2 unselectable"
                     fill="black"
-                    startOffset="20%"
-                    onClick={() => setPage("drinks")}
+                    startOffset="18%"
                   >
-                    Drinks
+                    |
                   </textPath>
                 </text>
                 <text>
@@ -536,10 +569,33 @@ export default function Home() {
                     xlinkHref="#innerCircle"
                     className="qr2 unselectable"
                     fill="black"
-                    startOffset="33%"
+                    startOffset="20%"
                     onClick={() => setPage("portions")}
                   >
                     Porções
+                  </textPath>
+                </text>
+                <text>
+                  <textPath
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    xlinkHref="#innerCircle"
+                    className="qr2 unselectable"
+                    fill="black"
+                    startOffset="34.5%"
+                  >
+                    |
+                  </textPath>
+                </text>
+                <text>
+                  <textPath
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    xlinkHref="#innerCircle"
+                    className="qr2 unselectable"
+                    fill="black"
+                    startOffset="36.5%"
+                    onClick={() => setPage("drinks")}
+                  >
+                    Drinks
                   </textPath>
                 </text>
               </svg>
