@@ -40,10 +40,7 @@ export default function ComSection(props: {
                       </b>
                     </div>
                   </div>
-                  <div
-                    key={i}
-                    className="text-2xl font-['Oswald'] font-extralight"
-                  >
+                  <div key={i} className="text-2xl font-['Oswald'] font-normal">
                     <div className="w-1/6"></div>
                     <div className="w-5/6 name">{item.description}</div>
                   </div>

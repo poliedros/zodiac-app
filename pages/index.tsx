@@ -107,6 +107,7 @@ export default function Home() {
   const shots = catalog["shots"];
   // const appetizer = catalog["appetizer"];
   const portions = catalog["portions"];
+  const combos = catalog["combos"];
   // const individualportions = catalog["individualportions"];
 
   const [page, setPage] = useState<string>();
@@ -328,10 +329,12 @@ export default function Home() {
                     xlinkHref="#innerCircle"
                     className="qr unselectable"
                     fill="white"
-                    startOffset="11%"
-                    onClick={() => setPage("drinks")}
+                    // stroke="green"
+                    // strokeWidth={"1rem"}
+                    startOffset="6%"
+                    onClick={() => setPage("drinks2")}
                   >
-                    Drinks
+                    Bebidas
                   </textPath>
                 </text>
                 <text>
@@ -340,10 +343,10 @@ export default function Home() {
                     xlinkHref="#innerCircle"
                     className="qr unselectable"
                     fill="white"
-                    startOffset="21.5%"
-                    onClick={() => setPage("drinks2")}
+                    startOffset="21%"
+                    onClick={() => setPage("drinks")}
                   >
-                    Bebidas
+                    Drinks
                   </textPath>
                 </text>
                 <text>
@@ -509,10 +512,10 @@ export default function Home() {
                     xlinkHref="#innerCircle"
                     className="qr2 unselectable"
                     fill="black"
-                    startOffset="9%"
-                    onClick={() => setPage("drinks")}
+                    startOffset="5%"
+                    onClick={() => setPage("drinks2")}
                   >
-                    Drinks
+                    Bebidas
                   </textPath>
                 </text>
                 <text>
@@ -522,9 +525,9 @@ export default function Home() {
                     className="qr2 unselectable"
                     fill="black"
                     startOffset="20%"
-                    onClick={() => setPage("drinks2")}
+                    onClick={() => setPage("drinks")}
                   >
-                    Bebidas
+                    Drinks
                   </textPath>
                 </text>
                 <text>
@@ -612,6 +615,7 @@ export default function Home() {
                     title={"diversos"}
                     items={various}
                   />
+                  <ComSection type={"item"} title={"combos"} items={combos} />
                   {/* <ComSection
                     type={"item"}
                     title={"shots"}

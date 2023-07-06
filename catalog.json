@@ -2,27 +2,27 @@
   "beers": [
     {
       "index": "1",
-      "name": "Cerveja - 600ml",
+      "name": "Cerveja Original",
       "price": "14,00",
-      "description": "Original"
+      "description": "600ml"
     },
     {
       "index": "2",
-      "name": "Cerveja - 600ml",
+      "name": "Cerveja Spaten",
       "price": "15,00",
-      "description": "Spaten"
+      "description": "600ml"
     },
     {
       "index": "3",
-      "name": "Chopp",
+      "name": "Chopp Brahma",
       "price": "9,00",
-      "description": "Brahma 450ml"
+      "description": "450ml"
     },
     {
       "index": "4",
-      "name": "Long Neck",
+      "name": "Long Neck Budweiser",
       "price": "9,00",
-      "description": "Budweiser"
+      "description": ""
     }
   ],
   "shots": [
@@ -34,21 +34,21 @@
     },
     {
       "index": "6",
-      "name": "Vodka",
+      "name": "Vodka Orloff",
       "price": "10,00",
       "description": ""
     },
     {
       "index": "7",
-      "name": "Whisky",
+      "name": "Whisky Red Label",
       "price": "20,00",
-      "description": "Red Label"
+      "description": ""
     },
     {
       "index": "8",
-      "name": "Whisky",
+      "name": "Whisky Jack Daniels",
       "price": "25,00",
-      "description": "Jack Daniels"
+      "description": ""
     }
   ],
   "various": [
@@ -81,7 +81,9 @@
       "name": "Suco Lata",
       "price": "7,00",
       "description": ""
-    },
+    }
+  ],
+  "combos": [
     {
       "index": "14",
       "name": "Gin Tanqueray + 4 Red Bulls",

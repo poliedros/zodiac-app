@@ -289,11 +289,14 @@
       }
 
 .qr {
-  font-size: 17px;
+  font-size: 25px;
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
   padding: 100px 100px -15px 100px;
   text-align: right;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
 }
 
 .qr:hover {
@@ -301,7 +304,7 @@
 }
 
 .qr2 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   padding: 100px 100px -15px 100px;
