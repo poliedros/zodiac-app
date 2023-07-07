@@ -3,10 +3,12 @@ import Script from "next/script";
 import catalog from "../catalog.json";
 import ComSection from "@/components/comSection";
 import { useEffect, useRef, useState } from "react";
-const GA_TRACKING_ID = "G-KVQPS7V7HZ";
 import Image from "next/image";
 import { Button, Col, Row } from "react-bootstrap";
 import IconsByName from "./../components/iconsByName";
+
+// This is the ID you get from Google Analytics
+const GA_TRACKING_ID = "G-61S8NYRDYW";
 
 function Footer() {
   const today = new Date();
