@@ -392,7 +392,7 @@ export default function Home() {
                   alt="zodiac logo"
                   className="mt-4 -mb-10 ml-24 invert -rotate-[30deg]"
                 />
-                <h1 className="text-center text-white mt-9 font-[Kristi] text-3xl">
+                <h1 className="text-center text-white mt-10 font-[Kristi] text-3xl">
                   Escolha uma categoria
                 </h1>
               </div>
