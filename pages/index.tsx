@@ -124,7 +124,6 @@ export default function Home() {
     // console.log(el);
     document.addEventListener("DOMContentLoaded", function (event) {
       // let el = document.getElementsByClassName("quart");
-      alert("Anderson");
       // console.log(el);
       // for (var i = 0; i < el.length; i++) {
       // console.log(el[i]);
