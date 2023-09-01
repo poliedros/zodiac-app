@@ -3,7 +3,7 @@
     {
       "index": "1",
       "name": "Cerveja Brahma",
-      "price": "10,50",
+      "price": "11,50",
       "description": "600ml"
     },
     {
@@ -14,14 +14,14 @@
     },
     {
       "index": "3",
-      "name": "Cerveja Spaten",
-      "price": "15,00",
+      "name": "Cerveja Heineken",
+      "price": "17,00",
       "description": "600ml"
     },
     {
       "index": "4",
-      "name": "Long Neck Budweiser",
-      "price": "9,00",
+      "name": "Long Neck",
+      "price": "10,00",
       "description": ""
     }
   ],
@@ -129,7 +129,7 @@
     {
       "index": "21",
       "name": "Gin Tanqueray + 4 Red Bulls",
-      "price": "350,00",
+      "price": "300,00",
       "description": ""
     },
     {
@@ -141,13 +141,13 @@
     {
       "index": "23",
       "name": "Red Label + 4 Red Bulls",
-      "price": "280,00",
+      "price": "180,00",
       "description": ""
     },
     {
       "index": "24",
       "name": "Jack Daniels + 4 Red Bulls",
-      "price": "380,00",
+      "price": "300,00",
       "description": ""
     },
     {
@@ -161,20 +161,20 @@
     {
       "index": "26",
       "name": "Mini Quibe",
-      "price": "19,90",
-      "description": ""
+      "price": "22,90",
+      "description": "(10 un.)"
     },
     {
       "index": "27",
       "name": "Pastel de Angu",
       "price": "29,90",
-      "description": ""
+      "description": "(10 un.)"
     },
     {
       "index": "28",
       "name": "Croquete Bacalhau",
-      "price": "24,90",
-      "description": ""
+      "price": "26,90",
+      "description": "(10 un.)"
     },
     {
       "index": "29",
@@ -185,115 +185,121 @@
     {
       "index": "30",
       "name": "Batata Cheddar e Bacon",
+      "price": "32,90",
+      "description": ""
+    },
+    {
+      "index": "31",
+      "name": "Tábua de Frios",
       "price": "29,90",
       "description": ""
     }
   ],
   "drinks": [
     {
-      "index": "31",
+      "index": "32",
       "name": "Caipirinha",
       "price": "15,00",
       "description": "(Limão, cachaça e açúcar)"
     },
     {
-      "index": "32",
+      "index": "33",
       "name": "Caipifrutas",
-      "price": "17,00",
+      "price": "19,00",
       "description": "(Vodka, fruta consultar o garçom, açúcar)"
     },
     {
-      "index": "33",
+      "index": "34",
       "name": "Caipvirgem",
       "price": "15,00",
       "description": ""
     },
     {
-      "index": "34",
+      "index": "35",
       "name": "Virgem Mojito",
       "price": "15,00",
       "description": ""
     },
     {
-      "index": "35",
+      "index": "36",
       "name": "Gin Especial",
-      "price": "20,00",
+      "price": "22,00",
       "description": "(Gin limão energético melancia e especiarias)"
     },
     {
-      "index": "36",
+      "index": "37",
       "name": "Gin Tônica",
-      "price": "17,00",
+      "price": "20,00",
       "description": "(Gin, limão e tônica)"
     },
     {
-      "index": "37",
+      "index": "38",
       "name": "Áries",
-      "price": "17,00",
+      "price": "19,00",
       "description": "(cachaça, abacaxi, xarope de amêndoas, chantilly)"
     },
     {
-      "index": "38",
+      "index": "39",
       "name": "Touro",
-      "price": "17,00",
+      "price": "19,00",
       "description": "(vodka, abacaxi leite condensado/vodka morango)"
     },
     {
-      "index": "39",
+      "index": "40",
       "name": "Gêmeos",
-      "price": "20,00",
+      "price": "22,00",
       "description": "(gin, limão sciliano, morango xarope gengibre, chantilly)"
     },
     {
-      "index": "40",
+      "index": "41",
       "name": "Câncer",
-      "price": "17,00",
+      "price": "18,00",
       "description": "(maracujá, vodka, leite condensado, menta)"
     },
     {
-      "index": "41",
+      "index": "42",
       "name": "Leão",
       "price": "20,00",
       "description": "(rum branco, morango, leite condensado, chantilly)"
     },
     {
-      "index": "42",
+      "index": "43",
       "name": "Virgem",
       "price": "20,00",
       "description": "(vodka, abacaxi, uva verde, xarope gengibre)"
     },
     {
-      "index": "43",
+      "index": "44",
       "name": "Libra",
       "price": "20,00",
       "description": "(rum branco, abacaxi, xarope de morango, chantilly)"
     },
     {
-      "index": "44",
+      "index": "45",
       "name": "Escorpião",
-      "price": "17,00",
+      "price": "18,00",
       "description": "(limão sciliano, abacaxi, grenadine gin)"
     },
     {
-      "index": "45",
+      "index": "46",
       "name": "Sagitário",
-      "price": "20,00",
+      "price": "22,00",
       "description": "(limão, kiwi, uva verde, xarope maça verde, vodka, chantilly)"
     },
     {
-      "index": "46",
+      "index": "47",
       "name": "Capricórnio",
       "price": "17,00",
       "description": "(vodka, xarope gengibre, menta, soda)"
     },
     {
-      "index": "47",
+      "index": "48",
       "name": "Aquário",
       "price": "17,00",
       "description": "(rum branco abacaxi, curaçau blue, soda)"
     },
     {
-      "index": "48",
+      "index": "49",
       "name": "Peixes",
       "price": "17,00",
       "description": "(limão, vodka, xarope gengibre, soda e chantilly)"
